@@ -1,0 +1,12 @@
+{
+  "name": "ai-job-search",
+  "private": true,
+  "packageManager": "pnpm@11.5.3",
+  "scripts": {
+    "dev:web": "pnpm --filter @ai-job-search/web dev",
+    "build:web": "pnpm --filter @ai-job-search/web build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
+

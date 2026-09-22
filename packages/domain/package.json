@@ -1,0 +1,20 @@
+{
+  "name": "@ai-job-search/domain",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "echo domain:lint-pending",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-job-search/contracts": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
+
